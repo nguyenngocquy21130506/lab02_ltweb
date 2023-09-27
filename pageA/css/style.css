@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*margin: 0;*/
+    /*padding: 0;*/
+    color: black;
+    font-size: 12px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+/*------------- 1 --------------*/
+
+#section_normal_1 {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+
+#section_normal_1 .container {
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section_normal_1 .container .sixteen {
+    height: 40px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+#section_normal_1 .container .alpha {
+    float: left;
+}
+
+#section_normal_1 .container .omega {
+    float: right;
+    display: flex;
+    height: auto;
+    /*width: 290px;*/
+}
+
+#section_normal_1 .container .omega a {
+    margin-left: 10px;
+}
+
+#section_normal_1 .container .omega .htext_style {
+    color: #c3c3c3;
+    margin-right: 20px;
+    justify-content: center;
+    padding-top: 7px;
+    font-size: 15px;
+    letter-spacing: 2;
+}
+
+/*------------- 2 --------------*/
+
+#section_normal_4_2 {
+    width: auto;
+    height: 675px;
+    background-color: #333;
+}
+
+#section_normal_4_2 .container {
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#section_normal_4_2 .container .sixteen {
+    display: flex;
+    height: 490px;
+}
+
+#section_normal_4_2 .container .sixteen .alpha img {
+    width: 540px;
+    height: 490px;
+}
+
+#section_normal_4_2 .container .sixteen .omega {
+    width: 580px;
+    height: auto;
+    margin-left: 55px;
+}
+
+#section_normal_4_2 .container .sixteen .omega span {
+    color: #2DC0E8;
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 1.5px;
+}
+
+#section_normal_4_2 .container .sixteen .omega .big_title {
+    font-size: 55px;
+    color: #fff;
+    font-weight: 550;
+    padding-right: 50px;
+    letter-spacing: 2.5px;
+    word-spacing: 1.5px;
+    margin: 20px auto;
+    line-height: 1.1;
+}
+
+#section_normal_4_2 .container .sixteen .omega .normal_text {
+    color: #888;
+    line-height: 1.5;
+    font-size: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    margin-bottom: 45px;
+}
+#section_normal_4_2 .container .sixteen .omega a{
+    text-decoration: none;
+}
+
+/*#section_normal_4_2 .container .sixteen .omega a .pi{*/
+/*    width: 10px;*/
+/*    height: 10px;*/
+/*}*/
+#section_normal_4_2 .container .sixteen .omega a span {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2DC0E8;
+    color: #fff;
+    box-shadow: 0 4px 0 #2499b9;
+}
+
+
+/*------------- 3 --------------*/
+
+#section_normal_6 {
+    width: 100%;
+    height: 390px;
+    background-color: #eee;
+}
+
+#section_normal_6 .container{
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    /*display: grid;*/
+    /*grid-template-rows: 10% 10% 10%;*/
+}
+#section_normal_6 .container h3{
+    font-size: 25px;
+    padding-top: 50px;
+    text-align: center;
+    word-spacing: 1px;
+    color: #6B6B6B;
+}
+#section_normal_6 .container h5{
+    font-size: 17px;
+    font-weight: 200;
+    padding-top: 15px;
+    text-align: center;
+    word-spacing: 1px;
+    color: #888;
+}
+#section_normal_6 .container .eight{
+    margin-top: 70px;
+    padding: 15px;
+    background-color: white;
+    width: 570px;
+    height: 140px;
+}
+#section_normal_6 .container .alpha{
+    float: left;
+    box-shadow: 0 4px 0 #DDDDDD;
+    border-radius: 5px;
+}
+#section_normal_6 .container .omega{
+    border-radius: 5px;
+    box-shadow: 0 4px 0 #DDDDDD;
+    float: right;
+}
+#section_normal_6 .container .eight .pix_builder_bg{
+    display: flex;
+}
+#section_normal_6 .container .eight .pix_builder_bg .b_style{
+    transform: translate(-15px, -15px);
+    background-color: #F5F5F5;
+    width: 125px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section_normal_6 .container .eight .pix_builder_bg .b_style img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+#section_normal_6 .container .eight .pix_builder_bg .txt_style{
+    display: block;
+    width: 460px;
+    font-size: 19px;
+    line-height: 1.6;
+    color: #888;
+}
+#section_normal_6 .container .eight .pix_builder_bg .txt_style .txt{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+#section_normal_6 .container .eight .pix_builder_bg .txt_style .stars_span span{
+    color: #2DC0E8;
+}
+
+/*------------- 4 --------------*/
+
+#section_agency_5 {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#section_agency_5 .container {
+    width: 1180px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section_agency_5 .container .f1_style{
+    color: #64a071;
+    font-size: 32px;
+    padding-top: 50px;
+    letter-spacing: 1px;
+}
+#section_agency_5 .container .f2_style{
+    letter-spacing: 1px;
+    color: #888888;
+    padding-top: 30px;
+    font-size: 15px;
+    width: 580px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+    word-spacing: 1.6;
+    letter-spacing: 1.3px;
+}
+#section_agency_5 .container .second_link{
+    width: 280px;
+    height: 60px;
+    margin-top: 40px;
+    padding-top: 20px;
+    /*padding: 35px 47px;*/
+    border: 4px solid #5B9A68;
+    border-radius: 3px;
+    color: #5B9A68;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section_agency_5 .container .second_link a{
+    color: #5B9A68;
+    text-decoration: none;
+    padding-top: 20px;
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+#section_agency_5 .container .rights_st{
+    margin-top: 40px;
+    color: #888;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+#section_agency_5 .container .editContent .pix_text .pixfort_st{
+    /*margin-top: 20px;*/
+    /*color: #888;*/
+    font-size: 15px;
+    color: #5B9A68;
+    font-weight: 600;
+}
+#section_agency_5 .container .center_btn{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+#section_agency_5 .container .center_btn a{
+    margin: 5px;
+}
+
+
