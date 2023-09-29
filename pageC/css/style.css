@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-size: 12px;
+    font-family: sans-serif, Arial, Tahoma;
+}
+
+/*------------- 1 ------------*/
+
+#section_header_2_dark {
+    background-color: #333;
+}
+
+#section_header_2_dark .container {
+    width: 1165px;
+    height: 95px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25px;
+}
+
+#section_header_2_dark .container .navbar-header {
+    float: left;
+}
+
+#section_header_2_dark .container .navbar-header img {
+    width: 170px;
+    height: 40px;
+}
+
+#section_header_2_dark .container .navbar-collapse {
+    float: right;
+}
+
+#section_header_2_dark .container .navbar-collapse ul {
+    list-style-type: none;
+    display: flex;
+    color: #FFCC33;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#section_header_2_dark .container .navbar-collapse ul .icon-item {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#section_header_2_dark .container .navbar-collapse ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+/*------------- 2 ------------*/
+
+#section_pix_4 {
+    width: 100%;
+    height: 890px;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+}
+
+#section_pix_4 .creative_header {
+    position: relative;
+    /*display: block;*/
+}
+
+#section_pix_4 .creative_header .section_video video {
+    width: 100%;
+    height: 100%;
+}
+
+#section_pix_4 .creative_header .mask {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+}
+
+#section_pix_4 .creative_header .clearfix {
+    width: 900px;
+    height: 330px;
+    width: 900px;
+    height: 330px;
+    position: absolute;
+    z-index: 1000;
+    /*background-color: #333;*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#section_pix_4 .creative_header .clearfix .container .title_style {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#section_pix_4 .creative_header .clearfix .container .subtitle_style {
+    color: white;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 100;
+    text-align: center;
+    padding: 50px 17%;
+    word-spacing: 0.6px;
+    letter-spacing: 0.6px;
+}
+#section_pix_4 .creative_header .clearfix .container .email_subscribe {
+    width: 500px;
+    height: 80px;
+    background-color: #000;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#section_pix_4 .creative_header .clearfix .container .email_subscribe input {
+    width: 360px;
+    height: 48px;
+}
+#section_pix_4 .creative_header .clearfix .container .email_subscribe button {
+    width: 175px;
+    height: 48px;
+}
+
+/*------------- 4 ------------*/
+
+#section_university_5 {
+    background-color: #fff;
+}
+
+#section_university_5 .container {
+    width: 100%;
+    height: 730px;
+}
+
+/*------------- 6 ------------*/
+
+#section_ecourse_7 {
+    background-color: #F6F6F6;
+}
+
+#section_ecourse_7 .container {
+    width: 100%;
+    height: 85px;
+}
+
+
